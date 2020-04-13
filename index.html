@@ -4,11 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello world</h1>
-    <h1>Hello world</h1>
-    <h1>Hello world</h1>
-    <h1>Hello world</h1>
+    <!--main container-->
+   <div class="wrapper">
+       <aside class="side-bar">
+            <img class = "photo" src="img/me.jpg" alt="my photo">
+            <div class="main-side-bar-container">
+            <!--contact container-->
+                <div class="contact-container">
+                    <h3 class="contact-title">Contacts</h3>
+                    <div>
+                        <span class="contact-links-type">C:</span> 
+                        <a class="contact-links" href="tel:380951138598">+38 095 113 85 98</a>
+                    </div>
+                    <div>
+                        <span class="contact-links-type">E:</span> 
+                        <a class="contact-links" href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+                    </div>
+                </div>
+                <!--tech skills container-->
+                <div class="tech-skills-container">
+                    <h3 class="tech-skills-title">Tech Skills</h3>
+                    <ul class="tech-skills-item">
+                        <li><span class="tech-skills-text">HTML</span></li>
+                        <li><span class="tech-skills-text">CSC3</span></li>
+                        <li><span class="tech-skills-text">GIT</span></li>
+                        <li><span class="tech-skills-text">WebPack</span></li>
+                        <li><span class="tech-skills-text">JavaScript</span></li>
+                        <li><span class="tech-skills-text">React.js</span></li>
+                        <li><span class="tech-skills-text">Node.js</span></li>
+                    </ul>
+                </div>
+                <!--Soft Skills container-->
+                <div class="soft-skills-container">
+                    <h3 class="soft-skills-title">Soft Skills</h3>
+                    <ul class="soft-skills-item">
+                        <li><span class="soft-skills-text">Scrum</span></li>
+                        <li><span class="soft-skills-text">Agile</span></li>
+                        <li><span class="soft-skills-text">GTD</span></li>
+                        <li><span class="soft-skills-text">Teamwork</span></li>
+                    </ul>
+                </div>
+            </div>
+       </aside>
+       <!--about me container-->
+       <div class="about-me-container">
+           <!--About me info-->
+           <div class="introduction-info">
+                <h2 class="position-title">Front-End Developer</h2>
+                <h1 class="name-title">Mykhailo Fedenko</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+           </div>
+          
+           <!--project container-->
+           <div class="project-container">
+               <h3 class = "project-title">Projects</h3>
+               <ol class="project-list-container">
+                    <li>
+                        <a href="https://lovecamp.allinsol.com/">
+                            <span class="project-links">https://lovecamp.allinsol.com/</span>
+                        </a>
+                        <span class="dots">...............</span>
+                        <span>[ <span class="project-technics">HTML5, CSS3</span> ]</span>
+                    </li>
+                    <li>
+                        <a href="https://cryptohub.goit.ua/">
+                            <span class="project-links">https://cryptohub.goit.ua/</span>
+                        </a>
+                        <span class="dots">.......................</span>
+                        <span >[ <span class="project-technics">JavaScript</span> ]</span>
+                    </li>
+                    <li>
+                        <a href="https://kidslike.goit.co.ua/">
+                            <span class="project-links">https://kidslike.goit.co.ua/</span>
+                        </a>
+                        <span class="dots">.......................</span>
+                        <span>[ <span class="project-technics">React.js, Node.js</span> ]</span>
+                    </li>
+                </ol>
+           </div>
+           <!--work exp-->
+           <div class="work-exp-container">
+               <h3 class="exp-title">Work Experience</h3>
+               <!--company 1-->
+               <div>
+                    <h4 class="position-title">Front-End Developer <span class="company-name">Freelance</span></h4>
+                    <span class="work-period">September 2019 - up to now | Ukraine</span>
+                    <ul class="job-ability">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Risus commodo viverra maecenas. </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
+                    </ul>
+               </div>
+
+               <!--company 2-->
+               <div>
+                    <h4 class="position-title">Manager <span class="company-name">Roga & Kopyta New</span> </h4>
+                    <span class="work-period">March 2015 - October 2018 | Ukraine</span>
+                    <ul class="job-ability">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+
+                <!--company 3-->
+               <div>
+                    <h4 class="position-title">Manager <span class="company-name">Roga & Kopyta LLC</span>Roga & Kopyta LLC </h4>
+                    <span class="work-period">June 2014 - February 2015 | Ukraine</span>
+                    <ul class="job-ability">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+                
+           </div>
+           <!--Education-->
+           <div class="education-container">
+               <h3>Education</h3>
+               <div>
+                   <h4>Kharkiv National University of Radioelectronics</h4>
+                   <h5>Management</h5>
+                   <span>Septermber 2009 - June 2014 | Ukraine</span>
+               </div>
+           </div>
+       </div>
+   </div>
 </body>
 </html>
