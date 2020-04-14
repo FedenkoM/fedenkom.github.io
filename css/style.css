@@ -144,7 +144,12 @@ body{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+<<<<<<< HEAD
     margin-top: 24px;
+=======
+    margin-bottom: 65px;
+/*     margin-right: 330px; */
+>>>>>>> 01c659299ce59489b2c78668fd0439c122c3e0d1
 }
 
 .about-me-title{
