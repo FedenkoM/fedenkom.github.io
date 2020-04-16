@@ -5,10 +5,19 @@
     box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body{
     background-color: #f5f7fa;
     padding: 40px;
     font-family: Montserrat;
+    /* overflow-x: auto; */
 }
 
 .wrapper{
