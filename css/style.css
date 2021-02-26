@@ -160,12 +160,8 @@ body{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-<<<<<<< HEAD
-    margin-top: 24px;
-=======
     margin-bottom: 65px;
 /*     margin-right: 330px; */
->>>>>>> 01c659299ce59489b2c78668fd0439c122c3e0d1
 }
 
 .about-me-title{
@@ -245,6 +241,7 @@ body{
 }
 
 
+
 .work-exp-container{
     margin-bottom: 55px;
 }
@@ -255,6 +252,20 @@ body{
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 14px;
+}
+
+.courses-container{
+    margin-bottom: 55px;
+    margin-top: 30px;
+    
+}
+
+.course>li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #929292;
+    margin-left: 15px;
 }
 
 
